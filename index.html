@@ -1,25 +1,85 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project</title>
-  <!-- FONTS -->
-
+  <title>Bookmark</title>
   <!-- STYLESHEETS -->
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/styles.min.css">
 </head>
 <body>
   <!-- SITE HEADER -->
+  <header class="site-header">
+    <div class="site-header__container container">
+      <a class="site-header__logo logo" href="index.html">
+        <img class="logo__img" src="img/logo.svg" alt="Site logo" width="149" height="25">
+      </a>
+      <nav class="site-header__sitenav sitenav">
+        <ul class="sitenav__list">
+          <li class="sitenav__item"><a class="sitenav__link" href="#">Features</a></li>
+          <li class="sitenav__item"><a class="sitenav__link" href="#">Pricing</a></li>
+          <li class="sitenav__item"><a class="sitenav__link" href="#">Contact</a></li>
+        </ul>
+      </nav>
 
+      <a class="button button--site-header button--red" href="#">Login</a>
+
+    </div>
+  </header>
   <!-- MAIN -->
-<main>
 
-</main>
+  <main class="main-content">
 
-<script src="js/main.js"></script>
+    <!-- HERO -->
+    <div class="hero">
+      <div class="hero__container container">
+        <div class="hero__inner">
+          <h1 class="hero__heading">A Simple Bookmark Manager</h1>
+          <p class="hero__text">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+          <div class="hero__actions">
+            <a class="button button--blue hero__actions-item" href="#">Get it on chrome</a>
+            <a class="button button--grey hero__actions-item" href="#">Get it on firefox</a>
+          </div>
+        </div>
+        <img class="hero__img" src="img/hero-img.svg" alt="Bookmark manager illustration" width="578" height="385">
+      </div>
+    </div>
+
+  <!-- FEATURES -->
+  <section class="section">
+    <div class="container">
+      <div class="section__info">
+        <h2 class="section__title">Features</h2>
+        <p class="section__description">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOWNLOAD EXTENSION -->
+  <section class="section">
+    <div class="container">
+      <div class="section__info">
+        <h2 class="section__title">Download the extension</h2>
+        <p class="section__description">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container">
+      <div class="section__info">
+        <h2 class="section__title">Frequently Asked Questions</h2>
+        <p class="section__description">Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.</p>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
