@@ -1,0 +1,90 @@
+/* CUSTOM PROPS */
+:root {
+  --body-bg: #fafafa;
+  --element-bg: #fff;
+  --text-color: #111517;
+  --transition-duration: 0.4s;
+  --placeholder-color: var(--text-color);
+
+}
+::placeholder {
+  color: var(--placeholder-color);
+}
+/* GLOBAL */
+html {
+  height: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: normal;
+  color: var(--text-color);
+  background-color: var(--body-bg);
+  transition: background-color var(--transition-duration) ease,
+  color var(--transition-duration) ease;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+*:focus {
+  outline: 2px dashed var(--outline-color);
+  outline-offset: 3px;
+}
+/* VISUALLY HIDDEN */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* CONTAINER */
+.container {
+  max-width: 1240px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* DARK MODE */
+.dark-mode {
+  --body-bg: #202c36;
+  --element-bg: #2b3844;
+  --text-color: #fff;
+  --placeholder-color: var(--text-color);
+}
+/* MAIN */
+.main-content {
+  flex-grow: 1;
+}
+
+/* RETINA BGS */
+@media
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                -o-min-device-pixel-ratio: 2/1),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+}
