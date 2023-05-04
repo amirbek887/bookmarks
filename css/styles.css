@@ -302,12 +302,12 @@ a {
   border-bottom: 1px solid rgba(73, 93, 207, 0.2);
 }
 
-.tabs__item--active .tabs-link {
+.tabs__item--active .tabs__link {
   color: var(--text-color);
   border-color: var(--red);
 }
 
-.tabs-link {
+.tabs__link {
   display: block;
   padding-top: 27px;
   padding-bottom: 27px;
@@ -319,12 +319,12 @@ a {
   color: var(--text-color-75);
 }
 
-.tabs-link:hover {
+.tabs__link:hover {
   color: var(--red);
 }
 
-.tabs-link:active {
-  color: 0.6;
+.tabs__link:active {
+  opacity: 0.6;
 }
 
 /* TABS PANELS */
