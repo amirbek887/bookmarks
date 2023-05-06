@@ -205,7 +205,7 @@ a {
 }
 
 .sitenav__item:not(:last-child) {
-  margin-right: 48px;
+  margin-right: 42px;
 }
 
 .sitenav__link {
@@ -223,7 +223,7 @@ a {
 
 /* SECTION */
 .section {
-  padding-top: 75px;
+  padding-top: 70px;
   padding-bottom: 75px;
 
 }
@@ -370,6 +370,7 @@ a {
   align-items: center;
   padding-top: 19px;
   padding-bottom: 13px;
+  padding-right: 23px;
 }
 
 .accordion__item-title {
@@ -427,6 +428,8 @@ a {
   padding-top: 19px;
   padding-bottom: 29px;
   color: var(--text-color-75);
+  font-size: 16px;
+  line-height: 36px;
 }
 
 .accordion__item--open .accordion__item-content {
@@ -435,6 +438,7 @@ a {
 
 .accordion__item-text {
   margin: 0;
+
 }
 
 /* SITE HEADER */
@@ -460,13 +464,13 @@ a {
 
 /* HERO */
 .hero {
-  padding-top: 66px;
+  padding-top: 70px;
   padding-bottom: 105px;
-  margin-bottom: 83px;
   background-image: url("../img/blue-pill.svg");
   background-repeat: no-repeat;
   background-position: calc(50% + 705px) 200px;
 }
+
 .hero__container {
   display: flex;
   align-items: flex-start;
@@ -479,6 +483,7 @@ a {
   max-width: 540px;
   margin-right: 65px;
 }
+
 .hero__heading {
   margin-top: 0;
   margin-bottom: 24px;
@@ -488,6 +493,7 @@ a {
   letter-spacing: -0.15px;
   color: var(--text-color);
 }
+
 .hero__text {
   margin-top: 0;
   margin-bottom: 32px;
@@ -518,6 +524,9 @@ a {
 }
 
 /* EXTENSION */
+.extensions {
+  padding-top: 0;
+}
 .extensions__inner {
   max-width: 910px;
   margin: 0 auto;
@@ -595,6 +604,10 @@ a {
 /* FAQ */
 .faq {
   padding-bottom: 150px;
+}
+
+.faq__section__info {
+  margin-bottom: 56px;
 }
 
 .faq__inner {
